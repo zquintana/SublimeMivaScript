@@ -38,7 +38,7 @@
 			<key>comment</key>
 			<string>match regular function like: &lt;MvFUNCTION NAME = "" PARAMETERS = ""&gt;</string>
 			<key>match</key>
-			<string>^&lt;(MvFUNCTION)\s*NAME\s*=\s*\"([a-zA-Z_$]\w*)?\"(\s+PARAMETERS\s*=\s*\"((\w\s?)*)?\")?(\s*STANDARDOUTPUTLEVEL\s*=\s*\"(.*)\")?\s*&gt;$</string>
+			<string>^&lt;(MvFUNCTION)\s*NAME\s*=\s*\"([a-zA-Z_$]\w*)?\"(\s+PARAMETERS\s*=\s*\"([a-zA-Z0-9\s\,\_])*\")?(\s*STANDARDOUTPUTLEVEL\s*=\s*\"(.*)\")?\s*&gt;$</string>
 			<key>name</key>
 			<string>meta.function.js</string>
 		</dict>
