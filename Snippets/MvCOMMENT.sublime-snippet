@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[MvCOMMENT>
-	/**
-	 * ${0:comment}
-	 */ 
+|
+| ${0:comment}
+|
 </MvCOMMENT>]]></content>
     <tabTrigger>MvCOMMENT</tabTrigger>
     <scope>source.miva_script</scope>
